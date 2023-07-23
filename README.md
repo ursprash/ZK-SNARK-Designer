@@ -5,9 +5,13 @@ To implement a zkSNARK circuit that proves you know the inputs A (0) and B (1) t
 ## Description
 This project implements a logical gate circuit using the circom programming language. The circuit implements the following truth table:
 A B X Y Q
+
 0 0 0 1 1
+
 0 1 0 0 0
+
 1 0 0 1 1
+
 1 1 1 0 1
 
 ##Project Rubric
